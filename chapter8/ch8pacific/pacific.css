@@ -180,7 +180,7 @@ footer {
       display: grid;
       grid-template:
         "header header"
-        "van hero"
+        "nav hero"
         "nav main"
         "nav footer"
         / 180px 1fr;
