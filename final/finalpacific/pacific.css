@@ -181,25 +181,24 @@ video {
 #story-content aside {
   flex: 1;
   display: flex;
-  flex-direction: column; /* Stack image and video vertically */
-  align-items: center; /* Center-align the content */
-  gap: 20px; /* Adds space between image and video */
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 #story-content aside img {
   width: 100%;
-  max-width: 300px; /* Constrain image size */
+  max-width: 300px;
   height: auto;
 }
 
 #video-container video {
   width: 100%;
   height: auto;
-  max-width: 300px; /* Constrain video size */
-  margin: 0; /* Remove default margins */
+  max-width: 300px;
+  margin: 0;
 }
 
-/* Remove global float from video specifically for this page */
 #story-content video {
   float: none;
 }
